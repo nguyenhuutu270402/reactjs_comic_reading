@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <button onClick={() => navigate(`/setting/child1/${a}`,)}>Cài đặt</button>
+      <button onClick={() => navigate(`/setting/child1/${a}`)}>Cài đặt</button>
     </div>
   );
 };

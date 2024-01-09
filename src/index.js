@@ -2,7 +2,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
@@ -11,11 +10,16 @@ import {
 import Profile from './pages/profile/Profile';
 import Setting from './pages/setting/Setting';
 import Child1 from './pages/child1/Child1';
-import Page1 from './testttt/LoginPage';
+import LoginPage from './pages/login/LoginPage';
+import App from './App';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Page1 />,
+    element: <App />,
+  },
+  {
+    path: "/login",
+    element: <LoginPage />,
   },
   {
     path: "/profile",
