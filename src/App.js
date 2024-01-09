@@ -1,15 +1,9 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import { useNavigate } from "react-router-dom";
+import HomePage from "./pages/home/HomePage";
 
 const App = () => {
-  const navigate = useNavigate();
-  var a = 121
   return (
-    <div>
-      <Navbar />
-      <button onClick={() => navigate(`/setting/child1/${a}`)}>Cài đặt</button>
-    </div>
+    <HomePage />
   );
 };
 export default App;

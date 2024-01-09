@@ -1,0 +1,98 @@
+.containerHome {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 100vh;
+    width: 100vw;
+    background: var(--Base-Darker-Grey, #141518);
+}
+
+.boxNavbar {
+    width: 300px;
+    height: calc(100vh - 48px);
+    background: var(--Base-Grey-100, #1E1F25);
+    border-radius: 20px;
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    background: #282C38;
+    width: 100%;
+    height: 1px;
+    margin-top: 76px;
+    margin-bottom: 10px;
+}
+
+.boxTopNavbar {
+    align-items: center;
+    flex: 1;
+}
+
+.boxEmailNavbar {
+    border-radius: 0px 0px 20px 20px;
+    background: var(--Base-Grey-80, #282C38);
+    padding: 20px;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.itemNavbar {
+    width: 100%;
+    background: var(--Base-Grey-100, #1E1F25);
+    display: flex;
+    flex-direction: row;
+    padding: 10px 26px;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.itemNavbar:hover {
+    background: var(--Base-Grey-80, #282C38);
+}
+
+.itemNavbar.active {
+    background: var(--Base-Grey-80, #282C38);
+}
+
+.iconItemNavbar {
+    width: 24px;
+    height: 24px;
+}
+
+.textItemNavbar {
+    margin-left: 16px;
+    color: var(--Base-Grey-40, #757B8C);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.textItemNavbar.active {
+    color: #FFF;
+}
+
+.textAccount {
+    color: var(--Base-Grey-60, #3C4254);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.56px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 26px;
+}
+
+.boxContent {
+    margin-top: 10px;
+}
