@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
@@ -11,10 +11,11 @@ import {
 import Profile from './pages/profile/Profile';
 import Setting from './pages/setting/Setting';
 import Child1 from './pages/child1/Child1';
+import Page1 from './testttt/LoginPage';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Page1 />,
   },
   {
     path: "/profile",
